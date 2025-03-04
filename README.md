@@ -3,4 +3,4 @@ This project uses HTML, CSS and JavaScript. <br />
 
 this learning is available on [udemy.com/user/jonasschmedtmann](https://www.udemy.com/user/jonasschmedtmann/)
 
-[Bankist Project](img/Bankist.png)
+![Bankist Project](img/Bankist.png)
