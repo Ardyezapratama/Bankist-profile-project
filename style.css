@@ -380,7 +380,7 @@ h4 {
 }
 
 .slide {
-	/* position: absolute; */
+	position: absolute;
 	top: 0;
 	width: 100%;
 	height: 50rem;
@@ -443,14 +443,15 @@ h4 {
 	border-radius: 50%;
 	cursor: pointer;
 	transition: all 0.5s;
+	margin-right: 1.5rem;
 }
 
 .dots__dot:last-child {
 	margin: 0;
 }
 
-.dot__dot--active {
-	background-color: #888;
+.dots__dot--active {
+	background-color: #8d8c8c;
 	opacity: 1;
 }
 
