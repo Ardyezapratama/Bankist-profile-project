@@ -158,3 +158,23 @@ console.log(h1.parentElement.children);
 	if (el !== h1) el.style.transform = "scale(0.5)";
 });
 */
+
+/*
+// NOTE: Lifecycle DOM Event
+
+// DOMContentLoaded (this event fired by the document as soon as the HTML is completly parsed )
+document.addEventListener("DOMContentLoaded", function (evt) {
+	console.log("HTML parsed and DOM tree built!", evt);
+});
+
+// Load event, fired by the window as soon as not only the HTML parsed but also all the source like images, all external resouces (CSS, etc)
+window.addEventListener("load", function (evt) {
+	console.log("Page fully loaded", evt);
+});
+
+// beforeUnload event, fired by the window when the user want to close the web
+// window.addEventListener("beforeunload", function (evt) {
+// 	evt.preventDefault();
+// 	console.log(evt);
+// });
+*/
